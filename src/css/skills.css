@@ -1,0 +1,99 @@
+/* Container styling */
+.skillsContainer {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.skillsTopic {
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.skillsTopicA {
+    font-family: "Lora", serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #7b1d55;
+}
+
+/* Section styling */
+.skillsSection {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.frontendSkills, .backendSkills {
+    flex-basis: 48%;
+}
+
+.skillsTitle {
+    font-size: 24px;
+    font-family: "Lora", serif;
+    color: #7b1d55;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Skill List styling */
+.skillsList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.skillRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.skillName {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.skillLevel {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: right;
+}
+
+/* Progress bar styling */
+.progressBar {
+    background-color: #f0e5ec;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 15px;
+    width: 100%;
+}
+
+.progress {
+    height: 100%;
+    background-color: #7b1d55;
+    transition: width 0.5s ease;
+}
+
+/* Responsive Design for mobile */
+@media (max-width: 768px) {
+    .skillsSection {
+        flex-direction: column; /* Stack sections vertically */
+        gap: 20px;
+    }
+
+    .frontendSkills, .backendSkills {
+        flex-basis: 100%; /* Each section takes full width */
+    }
+}

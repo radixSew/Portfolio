@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+.homeConationer {
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.topI {
+  display: flex;
+  flex-direction: row;
+  height: 60vh;
+}
+.bottomI {
+  display: flex;
+  flex-direction: column;
+}
+.profileImg {
+  display: flex;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+}
+.profileImg img {
+  height: auto;
+  border-radius: 10px;
+  margin-top: 200px;
+  width: 500px;
+  height: 500px;
+}
+.homeContent {
+  display: flex;
+  margin-top: 10%;
+  margin-left: 10%;
+  flex-direction: column;
+}
+.porfileName {
+  font-family: "Lora", serif;
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.subRoles {
+  color: #D3E97A;
+}
+.curserStyle {
+  color: #D3E97A;
+}
+.profileDescription {
+  font-family: "Lora", serif;
+  font-weight: bold;
+  font-size: medium;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.socialLinksMy img {
+  margin: 0 10px;
+}
+.hireLink {
+  display: inline-block;
+  text-decoration: none;
+  color: #0A0A0A;
+  font-family: "Nunito", sans-serif;
+  font-size: small;
+  padding: 10px 20px;
+  border: 2px solid #D3E97A;
+  width: 100px;
+  border-radius: 20px;
+  background-color: #D3E97A;
+  margin-top: 15px;
+  text-transform: uppercase;
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+}
+.worksContainer {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+.works {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  width: 120px;
+  margin: 10px auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px -2px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+.myworkLinks {
+  text-decoration: none;
+  color: black;
+}
+.works:hover {
+  background-color: #f0e5ec;
+}
+.iconContainer {
+  display: flex;
+  gap: 10px;
+}
+.contactIconsContainer {
+  display: flex;
+  align-items: center;
+  gap: 15px; 
+  margin-top: 10px;
+}
+
+.socialIcon {
+  width: 24px; 
+  height: 24px; 
+  cursor: pointer;
+  margin-top: 15px;
+  background-color: #222222; 
+  border-radius: 50%;
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+  padding: 10px; 
+}
+
+
+/* For Tablet View */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .homeConationer {
+    height: auto;
+  }
+  .topI {
+    flex-direction: row;
+    height: 400px;
+    margin-top: 50px;
+  }
+  .profileImg {
+    width: 40%;
+  }
+  .profileImg img {
+    width: 100%;
+    height: auto;
+  }
+
+  .bottomI {
+    margin-top: -50px;
+  }
+}
+/* For desktop View */
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .topI {
+    margin-top: 80px;
+  }
+}
+
+/* For Extra Small Devices (Phones) */
+@media screen and (max-width: 480px) {
+  .topI {
+    flex-direction: column;
+    margin-top: 80px;
+    height: auto;
+  }
+  .profileImg {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .homeContent {
+    margin-top: 0;
+    text-align: center;
+  }
+  .porfileName {
+    font-size: x-large;
+  }
+  .hireLink {
+    display: block;
+    padding: 5px 20px;
+    margin: 10px auto;
+  }
+  .worksContainer {
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+  }
+  .works {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .profileImg img {
+    width: 100%;
+  }
+
+  .porfileName {
+    font-size: x-large;
+  }
+  .homeContent {
+    margin-top: 100px;
+  }
+}

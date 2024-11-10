@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+.aboutContainor{
+    background-color: #f0e5ec;
+    padding: 20px;
+}
+.aboutTopic{
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+}
+.aboutTopicA{
+    font-family: "Lora", serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #7b1d55;
+}
+.aboutParContainor{
+    width: 70%;
+    background-color: rgba(255, 255, 255);
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: justify;
+    box-shadow: 0 2px 4px -2px rgba(0, 0, 0, 0.9);
+    font-family: "Nunito", sans-serif;
+    font-size: large;
+}

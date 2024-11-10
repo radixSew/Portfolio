@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+.cardContaioner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.ScardIcon {
+  display: flex;
+  height: 30px;
+  margin-bottom: 10%;
+}
+.ScardIcon img {
+  width: 50px;
+  height: 50px;
+}
+.ScardTitle {
+  height: 40px;
+}
+.ScardName {
+  font-family: "Lora", serif;
+  font-size: x-large;
+}
+.ScardDesc {
+  height: 60px;
+}
+.Scardp {
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+}
+.ScardButton {
+  height: 40px;
+}
+.ScardButton {
+  display: flex;
+}
+.ScardBtn {
+  color: #7B1D55;
+  background-color: #ffffff;
+  font-size: larger;
+  font-family: "Nunito", sans-serif;
+  background-size: 0.5s ease-out;
+  background-color: #ffffff;
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
